@@ -242,7 +242,7 @@ function init() {
 	var gameScore = new Object(); // Simulating a pointer variable
 	gameScore.value = 50;
 	var timeAddItem = new Object(); // Simulating a pointer variable
-	timeAddItem.value = 2000; //miliseconds
+	timeAddItem.value = 1000; //miliseconds
 	var items = new Array();
 
 	//Start music
