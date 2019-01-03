@@ -1,75 +1,10 @@
-/*
-Be A Cat
-This is a game where you need to pick up all the paws
-Author: ericmgs
-Date: 29 Dez 2018
-*/
-
-
-* {
-    /* Remove selection */
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: -moz-none;
-    -o-user-select: none;
-    user-select: none;
-}
-
 body {
 	background-image: url("img/background.jpg");
+	overflow: hidden;
 }
 
-#initialDialog {
-	background-color: #F4DF62;
-
+.layer {
 	position: absolute;
-	width: 400px;
-	height: 500px;
-	left: 50%;
-	top: 50%;
-	margin: -275px 0 0 -240px;
-
-	text-align: center;
-	font-size: 20px;
-	padding: 50px 20px 0 20px;
-}
-
-.closebtn {
-	content: url("img/CatButton.png");
-	width: 150px;
-	cursor: pointer;
-}
-
-.closebtn:hover {
-	content: url("img/CatButtonHover.png");
-} 
-
-.item {
-	display: initial;
-
-	position: absolute;
-	width: 60px;
-}
-
-#cat {
-	display: none;
-
-	position: absolute;
-	width: 200px;
-	bottom: 0;
-	left: 50%;
-	margin-left: -100px;
-	z-index: 1;
-}
-
-#score {
-	display: none;
-	background-color: #F4DF62;
-
-	position: absolute;
-	text-align: center;
-	width: 100px;
-	left: 1200px;
-	padding: 20px;
-	z-index: 1;
+	left: 0px;
+	top: 0px;
 }
