@@ -19,6 +19,8 @@ body {
 }
 
 #initialDialog {
+	display: none;
+
 	background-color: #F4DF62;
 
 	position: absolute;

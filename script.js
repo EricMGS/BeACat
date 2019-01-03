@@ -293,3 +293,27 @@ function init() {
 function retry() {
 	location.reload();
 }
+
+function preloadImage(url)
+{
+    var img = new Image();
+    img.src = url;
+}
+
+onload = function() {
+	preloadImage("img/background.jpg");
+	preloadImage("img/cat.png");
+	preloadImage("img/catButton.png");
+	preloadImage("img/catButtonHover.png");
+	preloadImage("img/catClosedEyes.png");
+	preloadImage("img/items/dog.png");
+	preloadImage("img/items/pawBlack.png");
+	preloadImage("img/items/pawBrown1.png");
+	preloadImage("img/items/pawBrown2.png");
+	preloadImage("img/items/pawBrown3.png");
+	preloadImage("img/items/pawDarkGray.png");
+	preloadImage("img/items/pawLightGray.png");
+	preloadImage("img/items/pawYellow.png");
+
+	document.getElementById("initialDialog").style.display = "initial";
+}
