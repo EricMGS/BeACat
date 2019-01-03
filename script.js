@@ -266,8 +266,10 @@ game = {
 			if((item.x + item.width >= cat.x) && (item.x <= cat.x + cat.width)){
 				if(item.status == "good")
 					score.increase();
-				else
+				else {
+					sounds.playDogSound();
 					score.decrease();
+				}
 				gameArea.removeItem(item);
 				this.verifyScore();
 			}
@@ -282,7 +284,7 @@ game = {
 			this.stop();
 			document.getElement("loserDialog").style.display = "initial";
 		}
-	}
+	}	
 }
 
 function init() {
