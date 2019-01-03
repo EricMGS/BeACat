@@ -201,7 +201,7 @@ sounds = {
 }
 
 game = {
-	timeAddItem : 2000,
+	timeAddItem : 1000,
 
 	start : function() {
 		//sounds.playBackgroundMusic();
@@ -215,8 +215,14 @@ game = {
 		cat.load();
 		gameArea.addItem(cat);
 
-		this.interval = setInterval(this.update, 20);
-		//this.interval = setInterval(this.newItem, this.timeAddItem);
+		this.updateInterval = setInterval(this.update, 20);
+		this.newItemInterval = setInterval(this.newItem, this.timeAddItem);
+	},
+
+	stop : function() {
+		clearTimeout(this.updateInterval);
+		clearTimeout(this.newItemInterval);
+		gameArea.clear();
 	},
 
 	newItem : function() {
@@ -238,6 +244,7 @@ game = {
 			if(item.status == "good")
 				score.decrease();
 			gameArea.removeItem(item);
+			this.verifyScore();
 		}
 		else if(item.y + item.height >= cat.y)
 			if((item.x + item.width >= cat.x) && (item.x <= cat.x + cat.width)){
@@ -246,11 +253,13 @@ game = {
 				else
 					score.decrease();
 				gameArea.removeItem(item);
+				this.verifyScore();
 			}
 	},
 
 	verifyScore : function() {
-
+		if(score.value <= 0 || score.value >= 100)
+			this.stop();
 	}
 }
 
