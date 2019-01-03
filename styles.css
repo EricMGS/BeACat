@@ -33,6 +33,38 @@ body {
 	padding: 50px 20px 0 20px;
 }
 
+#winnerDialog {
+	display: none;
+	background-color: #F4DF62;
+
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	margin: -150px 0 0 -200px;
+
+	text-align: center;
+	font-size: 20px;
+	padding: 50px 20px 0 20px;
+}
+
+#loserDialog {
+	display: none;
+	background-color: #F4DF62;
+
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	margin: -150px 0 0 -200px;
+
+	text-align: center;
+	font-size: 20px;
+	padding: 50px 20px 0 20px;
+}
+
 .closebtn {
 	content: url("img/CatButton.png");
 	width: 150px;

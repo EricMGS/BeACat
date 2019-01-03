@@ -276,11 +276,11 @@ game = {
 	verifyScore : function() {
 		if(score.value <= 0) {
 			this.stop();
-			document.getElement("winnerDialog").style.display = "initial";
+			document.getElementById("loserDialog").style.display = "initial";
 		}
 		else if(score.value >= 100) {
 			this.stop();
-			document.getElement("loserDialog").style.display = "initial";
+			document.getElementById("winnerDialog").style.display = "initial";
 		}
 	}	
 }
@@ -288,4 +288,8 @@ game = {
 function init() {
 	document.getElementById("initialDialog").style.display = "none";
 	game.start();
+}
+
+function retry() {
+	location.reload();
 }
