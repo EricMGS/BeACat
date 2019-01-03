@@ -214,7 +214,7 @@ sounds = {
 }
 
 game = {
-	timeAddItem : 1000,
+	timeAddItem : 700,
 
 	start : function() {
 		sounds.playBackgroundMusic();
@@ -282,7 +282,7 @@ game = {
 			this.stop();
 			document.getElementById("winnerDialog").style.display = "initial";
 		}
-	}	
+	}
 }
 
 function init() {
