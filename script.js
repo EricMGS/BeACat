@@ -171,8 +171,11 @@ function Score() {
 		this.update();
 	}
 
-	this.decrease = function() {
-		this.value -= this.change;
+	this.decrease = function(status) {
+		if(status == "good")
+			this.value -= this.change;
+		else
+			this.value -= 5 * this.change;
 		this.update();
 	}
 
@@ -253,7 +256,7 @@ game = {
 	verifyItem : function(item) {
 		if(item.verifyLimit() == false) {
 			if(item.status == "good")
-				score.decrease();
+				score.decrease(item.status);
 			gameArea.removeItem(item);
 			this.verifyScore();
 		}
@@ -263,7 +266,7 @@ game = {
 					score.increase();
 				else {
 					sounds.playDogSound();
-					score.decrease();
+					score.decrease(item.status);
 				}
 				gameArea.removeItem(item);
 				this.verifyScore();
