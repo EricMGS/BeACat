@@ -192,7 +192,6 @@ function Score() {
 sounds = {
 	backgroundMusic : new Audio("sounds/backgroundMusic.mp3"),
 	dogSound : new Audio("sounds/dog.mp3"),
-	catSound : new Audio("sounds/cat.mp3"),
 
 	playBackgroundMusic : function() {
 		this.backgroundMusic.addEventListener("ended", function() {
@@ -208,10 +207,6 @@ sounds = {
 
 	playDogSound : function() {
 		this.dogSound.play();
-	},
-
-	playCatSound : function() {
-		this.catSound.play();
 	}
 }
 
