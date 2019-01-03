@@ -66,6 +66,8 @@ function Cat(context, areaWidth, areaHeight) {
 		this.y = areaHeight - this.height;
 
 		this.eventListener(this);
+		this.blinkTimer = setInterval(this.blink, 3000, this);
+
 	}
 
 	this.update = function() {
@@ -99,6 +101,15 @@ function Cat(context, areaWidth, areaHeight) {
 			else if(event.code == "ArrowRight")
 				object.moveRight();
 		});
+	}
+	
+	this.blink = function(object) {
+		object.image.src = "img/catClosedEyes.png";
+		object.openEyesTimer = setTimeout(object.openEyes, 100, object);
+	}
+
+	this.openEyes = function(object) {
+		object.image.src = "img/cat.png";
 	}
 }
 
