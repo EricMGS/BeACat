@@ -191,6 +191,10 @@ sounds = {
 		this.backgroundMusic.play();
 	},
 
+	stopBakcroundMusic : function() {
+		this.backgroundMusic.pause();
+	},
+
 	playDogSound : function() {
 		this.dogSound.play();
 	},
@@ -204,7 +208,7 @@ game = {
 	timeAddItem : 1000,
 
 	start : function() {
-		//sounds.playBackgroundMusic();
+		sounds.playBackgroundMusic();
 		score = new Score();
 		score.update();
 
@@ -223,6 +227,7 @@ game = {
 		clearTimeout(this.updateInterval);
 		clearTimeout(this.newItemInterval);
 		gameArea.clear();
+		sounds.stopBakcroundMusic();
 	},
 
 	newItem : function() {
