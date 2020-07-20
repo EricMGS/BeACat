@@ -32,19 +32,9 @@ You can get or lose CUTE points with the falling items:
 - CSS  
 - JavaScript  
 
-## Contributing
-
-Please read [CONTRIBUTING.md]() for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](). 
-
-## Authors
-
-* [**Eric Monteiro Galotti de Souza**](github.com/ericmgs)   
-
-See also the list of [contributors]() who participated in this project.
 
 ## License
 
