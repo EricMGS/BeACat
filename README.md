@@ -34,7 +34,7 @@ You can get or lose CUTE points with the falling items:
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/EricMGS/BeACat/tags). 
 
 ## License
 
