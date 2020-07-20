@@ -19,10 +19,13 @@ Ok, if you have internet connection, just open the [game](https://ericmgs.github
 ### Instructions
 In this game you control the cat using the left and right arrows.  
 The objective is to be 100% CUTE, you start being 50% CUTE.  
-You can get or lose CUTE points with the falling items:  
-- Paw: +2 CUTE points  
-- Lose a paw: -2 CUTE points
-- Dog: -10 CUTE points  
+You can get or lose CUTE points with the falling items:
+
+|   Item   |  CUTE points  |
+|----------|:-------------:|
+|    Paw   |       +2      |
+|Lose a paw|       -2      |
+|   Dog    |      -10      |
 
 ## Built With
 - HTML  
