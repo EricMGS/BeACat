@@ -9,9 +9,11 @@
 ## About 
 
 ## Getting Started
-
 ### How To Play
-
+To play the game you need to:  
+- Have internet connection :laughing:  
+  
+Ok, if you have internet connection, just open the [game](ericmgs.github.io/beacat/).
 
 ### Instructions
 
