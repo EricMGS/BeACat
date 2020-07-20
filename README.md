@@ -13,7 +13,7 @@
 To play the game you need to:  
 - Have internet connection :laughing:  
   
-Ok, if you have internet connection, just open the [game](https://ericmgs.github.io/BeACat/).
+Ok, if you have internet connection, just open the <a href="https://ericmgs.github.io/BeACat/" target="_blank">Game</a>
 
 ### Instructions
 
