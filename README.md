@@ -4,7 +4,7 @@
 <!-- BADGES -->
 
 <!-- IMAGEM -->
-
+![project-gif](https://github.com/EricMGS/BeACat/blob/master/screenshot.gif)  
 
 ## About 
 
