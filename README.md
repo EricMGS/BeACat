@@ -1,5 +1,5 @@
 # Be a Cat :cat:
-> This game for you, cat lover.  
+> This game is for you, cat lover! :cat:    
 
 <!-- BADGES -->
 
