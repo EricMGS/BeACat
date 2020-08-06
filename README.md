@@ -6,12 +6,15 @@
 
 <!-- IMAGEM -->
 ![project-gif](https://github.com/EricMGS/BeACat/blob/master/screenshot.gif)  
-
+   
+   
 <h2 align="center">About</h2>
 Be a Cat is a browser game about cats.  
 
 <h2 align="center">Getting Started</h2>
-<h3 align="center">How To Play</h3>
+<br>
+<h3 align="center">How To Play</h3>   
+<br>
 To play the game you need to:  
 - Have internet connection :laughing:  
   
