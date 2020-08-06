@@ -10,14 +10,14 @@
 <h2 align="center">About</h2>
 Be a Cat is a browser game about cats.  
 
-## Getting Started
-### How To Play
+<h2 align="center">Getting Started</h2>
+<h3 align="center">How To Play</h3>
 To play the game you need to:  
 - Have internet connection :laughing:  
   
 Ok, if you have internet connection, just open the [game](https://ericmgs.github.io/BeACat/).  
 
-### Instructions
+<h3 align="center">Instructions</h3>
 In this game you control the cat using the left and right arrows.  
 The objective is to be 100% CUTE, you start being 50% CUTE.  
 You can get or lose CUTE points with the falling items:
@@ -28,15 +28,15 @@ You can get or lose CUTE points with the falling items:
 |Lose a paw|       -2      |
 |   Dog    |      -10      |
 
-## Built With
+<h2 align="center">Built With</h2>
 - HTML  
 - CSS  
 - JavaScript  
 
-## Versioning
+<h2 align="center">Versioning</h2>
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/EricMGS/BeACat/tags). 
 
-## License
+<h2 align="center">License</h2>
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/EricMGS/BeACat/blob/master/LICENSE) file for details
