@@ -13,14 +13,14 @@ Be a Cat is a browser game about cats.
 
 <h2 align="center">Getting Started</h2>
 <br>
-<h3 align="center">How To Play</h3>   
+### How To Play 
 <br>
 To play the game you need to:  
 - Have internet connection :laughing:  
   
 Ok, if you have internet connection, just open the [game](https://ericmgs.github.io/BeACat/).  
 
-<h3 align="center">Instructions</h3>
+### Instructions
 In this game you control the cat using the left and right arrows.  
 The objective is to be 100% CUTE, you start being 50% CUTE.  
 You can get or lose CUTE points with the falling items:
