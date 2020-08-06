@@ -29,6 +29,8 @@ You can get or lose CUTE points with the falling items:
 |    Paw   |       +2      |
 |Lose a paw|       -2      |
 |   Dog    |      -10      |
+With 0% of cuteness you lose.  
+
 
 <h2 align="center">Built With</h2>
 - HTML  
