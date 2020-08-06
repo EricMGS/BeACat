@@ -7,7 +7,7 @@
 <!-- IMAGEM -->
 ![project-gif](https://github.com/EricMGS/BeACat/blob/master/screenshot.gif)  
 
-## About 
+<h2 align="center">About</h2>
 Be a Cat is a browser game about cats.  
 
 ## Getting Started
