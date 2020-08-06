@@ -12,7 +12,7 @@
 Be a Cat is a browser game about cats.  
 
 <h2 align="center">Getting Started</h2>
-<br>
+   
 ### How To Play 
 <br>
 To play the game you need to:  
