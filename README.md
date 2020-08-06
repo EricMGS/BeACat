@@ -17,7 +17,7 @@ Be a Cat is a browser game about cats.
 To play the game you need to:  
 - Have internet connection :laughing:  
   
-Ok, if you have internet connection, just open the [game](https://ericmgs.github.io/BeACat/).  
+Ok, if you're connected, just open the [game](https://ericmgs.github.io/BeACat/).  
 
 ### Instructions
 In this game you control the cat using the left and right arrows.  
