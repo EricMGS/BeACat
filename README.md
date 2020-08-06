@@ -1,5 +1,5 @@
-# Be a Cat
-> This game is for you, cat lover! :cat:    
+<h1 align="center">Be a Cat</h1>  
+> This game is for you, cat lover! :cat:   
 
 <!-- BADGES -->
 
