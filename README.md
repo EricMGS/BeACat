@@ -34,9 +34,10 @@ With 0% of cuteness you lose.
 
 
 <h2 align="center">Built With</h2>
-- HTML  
-- CSS  
-- JavaScript  
+   
+- HTML   
+- CSS   
+- JavaScript   
 
 <h2 align="center">Versioning</h2>
 
