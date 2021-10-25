@@ -39,10 +39,6 @@ With 0% of cuteness you lose.
 - CSS   
 - JavaScript   
 
-<h2 align="center">Versioning</h2>
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/EricMGS/BeACat/tags). 
-
 <h2 align="center">License</h2>
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/EricMGS/BeACat/blob/master/LICENSE) file for details
