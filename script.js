@@ -1,3 +1,5 @@
+/* teste */
+
 function Item(context, areaWidth, areaHeight) {
 	this.image = new Image();
 	this.size = 0.12;
@@ -160,22 +162,24 @@ function Score() {
 	this.x = this.canvas.width - this.width - 20;
 	this.y = 20;
 	this.value = 50;
-	this.change = 2;
+	this.change_up = 2;
+	this.change_down = 1;
+	this.bad_item = 10;
 	this.color = "#F4DF62";
 	this.fontSize = 20;
 
 	document.body.insertBefore(this.canvas, document.body.childNodes[0]);
 
 	this.increase = function() {
-		this.value += this.change;
+		this.value += this.change_up;
 		this.update();
 	}
 
 	this.decrease = function(status) {
 		if(status == "good")
-			this.value -= this.change;
+			this.value -= this.change_down;
 		else
-			this.value -= 5 * this.change;
+			this.value -= this.bad_item;
 		this.update();
 	}
 
