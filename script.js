@@ -1,7 +1,7 @@
 function Item(context, areaWidth, areaHeight) {
 	this.image = new Image();
 	this.size = 0.12;
-	this.speed = Math.random() + 10;
+	this.speed = Math.random() + 2;
 	this.status = "good";
 
 	this.load = function() {
