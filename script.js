@@ -1,7 +1,7 @@
 function Item(context, areaWidth, areaHeight) {
 	this.image = new Image();
 	this.size = 0.12;
-	this.speed = Math.random() + 1;
+	this.speed = Math.random() + 10;
 	this.status = "good";
 
 	this.load = function() {
@@ -57,7 +57,7 @@ function Cat(context, areaWidth, areaHeight) {
 	this.image = new Image();
 	this.image.src = "img/cat.png";
 	this.size = 0.5;
-	this.speed = 20;
+	this.speed = 50;
 
 	this.load = function() {
 		this.width = this.image.width * this.size;
@@ -193,7 +193,7 @@ function Score() {
 }
 
 sounds = {
-	backgroundMusic : new Audio("sounds/backgroundMusic.mp3"),
+	backgroundMusic : new Audio("sounds/miau_miau_miau.mp3"),
 	dogSound : new Audio("sounds/dog.mp3"),
 
 	playBackgroundMusic : function() {
